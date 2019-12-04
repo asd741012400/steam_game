@@ -224,7 +224,7 @@ export default {
     .pages{
       display: flex;
       align-items: center;
-      margin-top: 50px;
+      margin: 50px 0;
     }
   }
 }

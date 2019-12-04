@@ -55,6 +55,15 @@ const routes = [
           title: '回收填写转账单'
         }
       },
+      //库存列表
+      {
+        path: '/InventoryList',
+        name: 'InventoryList',
+        component: resolve => require(['./views/business/InventoryList.vue'], resolve),
+        meta: {
+          title: '库存列表'
+        }
+      },
     ]
   },  
   // {
