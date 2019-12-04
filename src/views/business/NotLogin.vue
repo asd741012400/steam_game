@@ -63,7 +63,7 @@ export default {
     padding-top: 300px;
     h3{
       text-align: center;
-      font-size: 40px;
+      font-size: 32px;
       color: #ffffff;
       font-weight: normal;
     }
@@ -108,11 +108,12 @@ export default {
         }
         p{
           position: absolute;
-          bottom: -44px;
+          bottom: -160px;
           text-align: center;
           width: 100%;
           font-size: 14px;
           color: #6a81a9;
+          height: 140px;
         }
       }
     }

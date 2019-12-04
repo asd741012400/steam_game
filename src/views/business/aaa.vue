@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       boxMaxHeight:"",
-    
+      text:this.$t('dome.text2')
     }
   },
   created() {},

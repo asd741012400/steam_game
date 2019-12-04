@@ -7,9 +7,11 @@
           <li>
             {{$t('footer.f1')}}
           </li>
+          <li><span>|</span></li>
           <li>
             {{$t('footer.f2')}}
           </li>
+          <li><span>|</span></li>
           <li>
             {{$t('footer.f3')}}
           </li>
@@ -63,7 +65,7 @@ export default {
   width: 100%;
   overflow: hidden;
   .footer_box{
-    width: 574px;
+    width: 720px;
     margin-top: 16px;
     display: flex;
     align-items: center;
@@ -75,6 +77,7 @@ export default {
     }
     .footer_text{
       padding-left: 40px;
+      margin: 0;
       ul{
         display: flex;
         justify-content: space-between;
@@ -82,6 +85,10 @@ export default {
         color: #4c6083;
         li{
           margin: 0;
+          span{
+            display: block;
+            margin: 0 5px;
+          }
         }
       }
       p{
@@ -94,7 +101,7 @@ export default {
       width: 1px;
       height: 50px;
       background-color: #242b38;
-      margin: 0 60px;
+      margin: 0 20px;
     }
     .footer_img{
       ul{

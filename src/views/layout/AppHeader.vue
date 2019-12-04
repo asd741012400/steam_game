@@ -69,19 +69,20 @@ export default {
       display: flex;
       color: #ffffff;
       font-size: 16px;
-      width: 210px;
       justify-content: space-between;
       li{
-        width: 90px;
         text-align: center;
         line-height: 60px;
         position: relative;
         cursor: pointer;
         margin: 0;
+        flex: 1;
+        margin-right: 10px;
         span{
           width: 100%;
           height: 100%;
           display: block;
+          padding: 0 10px;
         }
         em{
           position: absolute;
@@ -91,6 +92,7 @@ export default {
           width: 100%;
           left: 0;
           display: none;
+          padding: 0 10px;
         }
         &.active{
           span{

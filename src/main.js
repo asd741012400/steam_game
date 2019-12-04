@@ -17,7 +17,7 @@ if(window.navigator.language == 'ja') {
   localeLang = "japanese"
 }
 const i18n = new VueI18n({
-  locale: localeLang,
+  locale: "japanese",
   messages: {
     'japanese': LangJAPANESE,
     'chinese': LangCHINESE
@@ -48,6 +48,10 @@ Vue.mixin({
 })
 
 
+//滚动条
+import GeminiScrollbar from 'vue-gemini-scrollbar'
+
+Vue.use(GeminiScrollbar)
 
 //element ui
 import {

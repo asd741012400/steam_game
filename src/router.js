@@ -46,6 +46,15 @@ const routes = [
           title: '我的出售订单'
         }
       },
+      //回收填写转账单
+      {
+        path: '/FillInData',
+        name: 'FillInData',
+        component: resolve => require(['./views/business/FillInData.vue'], resolve),
+        meta: {
+          title: '回收填写转账单'
+        }
+      },
     ]
   },  
   // {
